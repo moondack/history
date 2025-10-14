@@ -17,6 +17,12 @@ body {
     margin: 0 auto;
 }
 
+.nav button {
+    border: none;
+  background: none;
+  padding: 0px;
+}
+
 .nav ul {
     display: flex;
     list-style: none;
@@ -370,4 +376,5 @@ body {
     .footer {
         height: 400px;
     }
+
 }
