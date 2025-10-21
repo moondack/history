@@ -17,12 +17,6 @@ body {
     margin: 0 auto;
 }
 
-.nav button {
-    border: none;
-  background: none;
-  padding: 0px;
-}
-
 .nav ul {
     display: flex;
     list-style: none;
@@ -225,9 +219,10 @@ body {
 
 .z {
     position: absolute;
-    bottom: 50px;
+    padding-bottom: 200px;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 20px;
 }
 
 /* Адаптивность для планшетов */
@@ -349,8 +344,6 @@ body {
         width: 84%;
     }
 }
-
-/* Дополнительные медиа-запросы для очень маленьких экранов */
 @media (max-width: 480px) {
     .nav ul {
         height: 60px;
@@ -376,5 +369,4 @@ body {
     .footer {
         height: 400px;
     }
-
 }
