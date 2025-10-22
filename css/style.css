@@ -28,7 +28,7 @@ body {
 .nav ul li {
     font-size: 20px;
     font-family: 'Abhaya Libre ExtraBold', serif;
-    font-weight: 800;
+    font-weight: 400;
     letter-spacing: 1.5em;
     text-transform: uppercase;
 }
@@ -53,7 +53,6 @@ body {
 }
 
 .cartinca::before {
-    content: '';
     position: absolute;
     width: 134px;
     height: 0px;
@@ -63,7 +62,6 @@ body {
 }
 
 .cartinca::after {
-    content: '';
     position: absolute;
     width: 70px;
     height: 0px;
@@ -219,10 +217,9 @@ body {
 
 .z {
     position: absolute;
-    padding-bottom: 200px;
+    margin-bottom: 250px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 20px;
 }
 
 /* Адаптивность для планшетов */
@@ -241,7 +238,8 @@ body {
         height: auto;
     }
     
-    .crtinca78 {
+    .crtinca78
+{
         width: 90%;
         height: auto;
     }
@@ -344,6 +342,8 @@ body {
         width: 84%;
     }
 }
+
+/* Дополнительные медиа-запросы для очень маленьких экранов */
 @media (max-width: 480px) {
     .nav ul {
         height: 60px;
