@@ -221,6 +221,11 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+.nav ul a {
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
 
 /* Адаптивность для планшетов */
 @media (max-width: 1200px) {
